@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css"
+    />
+  </head>
+
+  <body>
+    <h1 class="title is-1">People entered:</h1>
+    <h2 id="count-el" class="box">0</h2>
+
+    <div class="columns is-mobile">
+      <button
+        id="increment-btn"
+        class="button is-primary column m-1"
+        onclick="increment()"
+      >
+        INCREMENT
+      </button>
+
+      <button
+        id="save-btn"
+        class="button is-danger column m-1"
+        onclick="save()"
+      >
+        SAVE
+      </button>
+
+      <button
+        id="count-"
+        class="button is-info column m-1"
+        onclick="decrement()"
+      >
+        DECREMENT
+      </button>
+    </div>
+
+    <button id="loll" class="button m-1" onclick="lol()">lol</button>
+
+    <div class="content m-1 level">
+      <p id="save-el" class="m-1 is-uppercase level-item has-text-centered">
+        Previous entries:
+      </p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
