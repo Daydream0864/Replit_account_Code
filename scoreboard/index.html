@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css"
+    />
+  </head>
+
+  <body>
+
+    <section>
+      <div class="columns is-multiline">
+        <div class="column is-mobile is-5 m-3">
+          <h3 class="has-text-weight-bold is-size-2">HOME</h3>
+          <p id="home" class="m-3">0</p>
+          <button class="button" onclick="oneplus()">+1</button>
+          <button class="button" onclick="twoplus()">+2</button>
+          <button class="button" onclick="threeplus()">+3</button>
+        </div>
+          
+        <div class="column is-mobile is-5 m-3">
+          <h3 class="has-text-weight-bold is-size-2">GUEST</h3>
+          <p id="guest" class="m-3">0</p>
+          <button class="button" onclick="oneplusg()">+1</button>
+          <button class="button" onclick="twoplusg()">+2</button>
+          <button class="button" onclick="threeplusg()">+3</button>
+        </div>
+      </div>
+      <div><button class="button is-white m-auto container mx-4" onclick="newgame()">NEW GAME</button></div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
